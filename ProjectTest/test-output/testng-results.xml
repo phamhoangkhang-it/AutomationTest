@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-22T21:23:10 ICT" name="Default suite" finished-at="2025-01-22T21:25:27 ICT" duration-ms="137340">
+    <groups>
+    </groups>
+    <test started-at="2025-01-22T21:23:10 ICT" name="Default test" finished-at="2025-01-22T21:25:27 ICT" duration-ms="137340">
+      <class name="automation.testsuite.LoginTest">
+        <test-method is-config="true" signature="openBrowerTest()[pri:0, instance:automation.testsuite.LoginTest@56cdfb3b]" started-at="2025-01-22T21:23:10 ICT" name="openBrowerTest" finished-at="2025-01-22T21:23:39 ICT" duration-ms="28957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowerTest -->
+        <test-method signature="locateByClassName()[pri:0, instance:automation.testsuite.LoginTest@56cdfb3b]" started-at="2025-01-22T21:23:39 ICT" name="locateByClassName" finished-at="2025-01-22T21:23:39 ICT" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByClassName -->
+        <test-method is-config="true" signature="openBrowerTest()[pri:0, instance:automation.testsuite.LoginTest@56cdfb3b]" started-at="2025-01-22T21:23:39 ICT" name="openBrowerTest" finished-at="2025-01-22T21:24:05 ICT" duration-ms="25710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowerTest -->
+        <test-method signature="locateById()[pri:0, instance:automation.testsuite.LoginTest@56cdfb3b]" started-at="2025-01-22T21:24:05 ICT" name="locateById" finished-at="2025-01-22T21:24:05 ICT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateById -->
+        <test-method is-config="true" signature="openBrowerTest()[pri:0, instance:automation.testsuite.LoginTest@56cdfb3b]" started-at="2025-01-22T21:24:05 ICT" name="openBrowerTest" finished-at="2025-01-22T21:24:31 ICT" duration-ms="26478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowerTest -->
+        <test-method signature="locateByLink()[pri:0, instance:automation.testsuite.LoginTest@56cdfb3b]" started-at="2025-01-22T21:24:31 ICT" name="locateByLink" finished-at="2025-01-22T21:24:33 ICT" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByLink -->
+        <test-method is-config="true" signature="openBrowerTest()[pri:0, instance:automation.testsuite.LoginTest@56cdfb3b]" started-at="2025-01-22T21:24:33 ICT" name="openBrowerTest" finished-at="2025-01-22T21:25:00 ICT" duration-ms="27341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowerTest -->
+        <test-method signature="locateByName()[pri:0, instance:automation.testsuite.LoginTest@56cdfb3b]" started-at="2025-01-22T21:25:00 ICT" name="locateByName" finished-at="2025-01-22T21:25:01 ICT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByName -->
+        <test-method is-config="true" signature="openBrowerTest()[pri:0, instance:automation.testsuite.LoginTest@56cdfb3b]" started-at="2025-01-22T21:25:01 ICT" name="openBrowerTest" finished-at="2025-01-22T21:25:27 ICT" duration-ms="26275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowerTest -->
+        <test-method signature="locateByTagName()[pri:0, instance:automation.testsuite.LoginTest@56cdfb3b]" started-at="2025-01-22T21:25:27 ICT" name="locateByTagName" finished-at="2025-01-22T21:25:27 ICT" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByTagName -->
+      </class> <!-- automation.testsuite.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
