@@ -41,12 +41,17 @@ public class BaitapBuoi8 extends CommonBase {
 		WebElement textboxPassword = driver.findElement(By.name("password"));
 		System.out.println("Textbox Address by NAME " + textboxPassword);
 	}
+
+	@Test
+	public void locateByClassName() {
+		WebElement Form = driver.findElement(By.className("large-12 columns"));
+		System.out.println("Submit and Reset form element is: " + Form);
+
+	}
 	
 	@Test
-	public void locateByClassName()
-	{
-		WebElement Form = driver.findElement(By.className("large-12 columns"));
-		System.out.println("Submit and Reset form element is: "+Form);
-
+	public void locateByLink() {
+		WebElement Tooltips = driver.findElement(By.linkText("Hover over me"));
+		System.out.println("Link forgot PW: " + Tooltips);
 	}
 }
