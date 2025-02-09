@@ -24,7 +24,6 @@ public class LoginTest extends CommonBase {
 	@Test
 	public void locateByName()
 	{
-		
 		WebElement textUsername = driver.findElement(By.name("txtLoginUsername"));
 		System.out.println(textUsername);
 		
@@ -50,8 +49,9 @@ public class LoginTest extends CommonBase {
 
 	}
 	@Test
-	public void locateByTagName()
+	public void locateByTagName() throws InterruptedException
 	{
+		Thread.sleep(3000);
 		WebElement textInput = driver.findElement(By.tagName("input"));
 		System.out.println("Input tag Name : "+textInput);
 	}
