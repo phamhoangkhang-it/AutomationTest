@@ -48,10 +48,11 @@ public class BaitapBuoi8 extends CommonBase {
 		System.out.println("Submit and Reset form element is: " + Form);
 
 	}
-	
+
 	@Test
 	public void locateByLink() {
 		WebElement Tooltips = driver.findElement(By.linkText("Hover over me"));
-		System.out.println("Link forgot PW: " + Tooltips);
+		System.out.println("Link Tooltips: " + Tooltips);
 	}
+
 }
