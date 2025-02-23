@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-19T17:45:33 ICT" name="Default suite" finished-at="2025-02-19T17:46:06 ICT" duration-ms="33547">
+  <suite started-at="2025-02-23T14:11:34 ICT" name="Default suite" finished-at="2025-02-23T14:11:54 ICT" duration-ms="19648">
     <groups>
     </groups>
-    <test started-at="2025-02-19T17:45:33 ICT" name="Default test" finished-at="2025-02-19T17:46:06 ICT" duration-ms="33547">
-      <class name="automation.testsuite.BTVN_Day12">
-        <test-method is-config="true" signature="openBrowerTest()[pri:0, instance:automation.testsuite.BTVN_Day12@2fb3536e]" started-at="2025-02-19T17:45:33 ICT" name="openBrowerTest" finished-at="2025-02-19T17:46:04 ICT" duration-ms="31428" status="PASS">
+    <test started-at="2025-02-23T14:11:34 ICT" name="Default test" finished-at="2025-02-23T14:11:54 ICT" duration-ms="19648">
+      <class name="automation.testsuite.BTVN_Day13">
+        <test-method is-config="true" signature="openBrowerTest()[pri:0, instance:automation.testsuite.BTVN_Day13@22ef9844]" started-at="2025-02-23T14:11:34 ICT" name="openBrowerTest" finished-at="2025-02-23T14:11:41 ICT" duration-ms="6637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowerTest -->
-        <test-method signature="selectCountry()[pri:0, instance:automation.testsuite.BTVN_Day12@2fb3536e]" started-at="2025-02-19T17:46:04 ICT" name="selectCountry" finished-at="2025-02-19T17:46:06 ICT" duration-ms="2102" status="PASS">
+        <test-method signature="logoutSuccessfully()[pri:0, instance:automation.testsuite.BTVN_Day13@22ef9844]" started-at="2025-02-23T14:11:41 ICT" name="logoutSuccessfully" finished-at="2025-02-23T14:11:54 ICT" duration-ms="12997" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectCountry -->
-      </class> <!-- automation.testsuite.BTVN_Day12 -->
+        </test-method> <!-- logoutSuccessfully -->
+      </class> <!-- automation.testsuite.BTVN_Day13 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
