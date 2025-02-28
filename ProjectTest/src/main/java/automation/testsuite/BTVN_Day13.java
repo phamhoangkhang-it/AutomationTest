@@ -21,14 +21,13 @@ public class BTVN_Day13 extends CommonBase {
 		driver = initFireFoxDriver(CT_PageURL.URL_CODESTAR);
 
 	}
-	
+
 	@Test
 	public void loginSuccessfully() {
 		LoginCodeStar login = new LoginCodeStar(driver);
 		login.Login("admin@gmail.com", "12345678");
 		// Assert Dashboard display
-		assertTrue(driver.findElement(By.xpath("//p[text()='Quản lý người dùng' and @class='text']"))
-				.isDisplayed());
+		assertTrue(driver.findElement(By.xpath("//p[text()='Quản lý người dùng' and @class='text']")).isDisplayed());
 
 	}
 
@@ -36,53 +35,56 @@ public class BTVN_Day13 extends CommonBase {
 	public void loginFail_IncorrectPass() {
 		LoginCodeStar login = new LoginCodeStar(driver);
 		login.Login("admin@gmail.com", "123456");
-		 // Chờ tối đa 10 giây để thông báo xuất hiện
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	    WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(
-	        By.xpath("//span[text()='Email hoặc mật khẩu không đúng']")
-	    ));
+		// Chờ tối đa 10 giây để thông báo xuất hiện
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement errorMessage = wait.until(ExpectedConditions
+				.visibilityOfElementLocated(By.xpath("//span[text()='Email hoặc mật khẩu không đúng']")));
 
-	    assertTrue(errorMessage.isDisplayed(), "Thông báo lỗi không xuất hiện!");
+		assertTrue(errorMessage.isDisplayed(), "Thông báo lỗi không xuất hiện!");
 	}
 
-	
-	
 	@Test
 	public void loginFail_IncorrectEmail() {
 		LoginCodeStar login = new LoginCodeStar(driver);
 		login.Login("dem2email@gmail.com", "12345678");
-		 // Chờ tối đa 10 giây để thông báo xuất hiện
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	    WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(
-	        By.xpath("//span[text()='Email hoặc mật khẩu không đúng']")
-	    ));
+		// Chờ tối đa 10 giây để thông báo xuất hiện
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement errorMessage = wait.until(ExpectedConditions
+				.visibilityOfElementLocated(By.xpath("//span[text()='Email hoặc mật khẩu không đúng']")));
 
-	    assertTrue(errorMessage.isDisplayed(), "Thông báo lỗi không xuất hiện!");
+		assertTrue(errorMessage.isDisplayed(), "Thông báo lỗi không xuất hiện!");
 
 	}
-	
+
 	@Test
 	public void loginFail_IncorrectEmailandPass() {
 		LoginCodeStar login = new LoginCodeStar(driver);
 		login.Login("dem2email@gmail.com", "abc123456");
-		 // Chờ tối đa 10 giây để thông báo xuất hiện
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	    WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(
-	        By.xpath("//span[text()='Email hoặc mật khẩu không đúng']")
-	    ));
+		// Chờ tối đa 10 giây để thông báo xuất hiện
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement errorMessage = wait.until(ExpectedConditions
+				.visibilityOfElementLocated(By.xpath("//span[text()='Email hoặc mật khẩu không đúng']")));
 
-	    assertTrue(errorMessage.isDisplayed(), "Thông báo lỗi không xuất hiện!");
+		assertTrue(errorMessage.isDisplayed(), "Thông báo lỗi không xuất hiện!");
 	}
-	
+
 	@Test
 	public void logoutSuccessfully() throws InterruptedException {
 		LoginCodeStar login = new LoginCodeStar(driver);
 		login.Login("admin@gmail.com", "12345678");
-		// Assert Dashboard display
-		
 		login.Logout();
-		assertTrue(driver.findElement(By.xpath("//h4[text()='Đăng nhập' and @class='title my-3']"))
-				.isDisplayed());
+		assertTrue(driver.findElement(By.xpath("//h4[text()='Đăng nhập' and @class='title my-3']")).isDisplayed());
+
+	}
+
+	@Test
+	public void themNhanVien() throws InterruptedException {
+		LoginCodeStar login = new LoginCodeStar(driver);
+		login.Login("admin@gmail.com", "12345678");
+		// Assert Dashboard display
+		assertTrue(driver.findElement(By.xpath("//p[text()='Quản lý người dùng' and @class='text']")).isDisplayed());
+
+		login.chucNangThemNhanVien("Quản Lý", "2", "1");
 
 	}
 }

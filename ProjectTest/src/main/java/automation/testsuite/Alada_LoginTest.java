@@ -24,7 +24,7 @@ public class Alada_LoginTest extends CommonBase {
 
 	}
 
-	@Test
+	@Test(priority=1)
 	public void loginSuccessfully() {
 		LoginPage login = new LoginPage(driver);
 		login.LoginFunction("demoemail@gmail.com", "123456");
@@ -34,7 +34,7 @@ public class Alada_LoginTest extends CommonBase {
 
 	}
 
-	@Test
+	@Test(priority=2)
 	public void loginFail_IncorrectPass() {
 		LoginPage login = new LoginPage(driver);
 		login.LoginFunction("demoemail@gmail.com", "123456_incorrect");
@@ -42,11 +42,16 @@ public class Alada_LoginTest extends CommonBase {
 
 	}
 	
-	@Test
+	@Test(priority=3)
 	public void loginFail_IncorrectEmail() {
 		LoginPage login = new LoginPage(driver);
 		login.LoginFunction("dem2email@gmail.com", "123456");
 		assertTrue(driver.findElement(By.xpath("//p[text()='Email này chưa được đăng ký.']")).isDisplayed());
 
+	}
+	
+	@AfterMethod
+	public void closeBrowser() {
+		driver.close();
 	}
 }

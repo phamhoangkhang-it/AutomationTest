@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-23T14:11:34 ICT" name="Default suite" finished-at="2025-02-23T14:11:54 ICT" duration-ms="19648">
+  <suite started-at="2025-02-28T11:12:28 ICT" name="Default suite" finished-at="2025-02-28T11:15:36 ICT" duration-ms="188024">
     <groups>
     </groups>
-    <test started-at="2025-02-23T14:11:34 ICT" name="Default test" finished-at="2025-02-23T14:11:54 ICT" duration-ms="19648">
-      <class name="automation.testsuite.BTVN_Day13">
-        <test-method is-config="true" signature="openBrowerTest()[pri:0, instance:automation.testsuite.BTVN_Day13@22ef9844]" started-at="2025-02-23T14:11:34 ICT" name="openBrowerTest" finished-at="2025-02-23T14:11:41 ICT" duration-ms="6637" status="PASS">
+    <test started-at="2025-02-28T11:12:28 ICT" name="Default test" finished-at="2025-02-28T11:15:36 ICT" duration-ms="188024">
+      <class name="automation.testsuite.BTVN_Day14_Alada">
+        <test-method is-config="true" signature="openBrowerTest()[pri:0, instance:automation.testsuite.BTVN_Day14_Alada@6283d8b8]" started-at="2025-02-28T11:12:28 ICT" name="openBrowerTest" finished-at="2025-02-28T11:12:53 ICT" duration-ms="25225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowerTest -->
-        <test-method signature="logoutSuccessfully()[pri:0, instance:automation.testsuite.BTVN_Day13@22ef9844]" started-at="2025-02-23T14:11:41 ICT" name="logoutSuccessfully" finished-at="2025-02-23T14:11:54 ICT" duration-ms="12997" status="PASS">
+        <test-method signature="FullFlow()[pri:0, instance:automation.testsuite.BTVN_Day14_Alada@6283d8b8]" started-at="2025-02-28T11:12:53 ICT" name="FullFlow" finished-at="2025-02-28T11:15:35 ICT" duration-ms="162360" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutSuccessfully -->
-      </class> <!-- automation.testsuite.BTVN_Day13 -->
+        </test-method> <!-- FullFlow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.BTVN_Day14_Alada@6283d8b8]" started-at="2025-02-28T11:15:35 ICT" name="closeBrowser" finished-at="2025-02-28T11:15:36 ICT" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.BTVN_Day14_Alada -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
