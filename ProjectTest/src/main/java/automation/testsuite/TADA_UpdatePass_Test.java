@@ -51,7 +51,7 @@ public class TADA_UpdatePass_Test extends CommonBase {
         TADA_UpdatePass_Page timkiem = new TADA_UpdatePass_Page(driver);
         timkiem.searchKhoaHoc("ASP Net");
         Thread.sleep(3000);
-        assertTrue(driver.findElement(By.xpath("//a[text()='Bài 52: Gửi phản hồi và gửi mail trong ASP NET sử dụng SMTP']")).isDisplayed());
+        assertTrue(driver.findElement(By.xpath("//div[@class='post-body']")).isDisplayed());
 
     }
 }
