@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.BTVN_Day16_GURU99">
+      <class name="automation.testsuite.Day16_QuanLyKVLV_Test">
         <methods>
-          <include name="deleteCustomer"/>
+          <include name="quanLyKhuVucLamViec"/>
           <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- automation.testsuite.BTVN_Day16_GURU99 -->
+      </class> <!-- automation.testsuite.Day16_QuanLyKVLV_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

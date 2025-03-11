@@ -14,7 +14,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.*;
 
 public class CommonBase {
-	public WebDriver driver;
+	
+	public static WebDriver driver;
     private int pageLoadTimeout = 40;
 	public WebDriver initBrowser(String URL)
 	{
@@ -28,12 +29,12 @@ public class CommonBase {
 	}
 	
 	
-	public WebDriver initFireFoxDriver(String URL) {
+	public static WebDriver initFireFoxDriver(String URL) {
 		System.setProperty("webdriver.firefox.driver", System.getProperty("user.dir") + "\\driver\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get(URL);
-        driver.manage().timeouts().pageLoadTimeout(pageLoadTimeout, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		return driver;
 	}
 	
