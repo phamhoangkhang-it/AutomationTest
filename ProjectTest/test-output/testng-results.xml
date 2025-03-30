@@ -1,21 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-11T22:35:38 ICT" name="Default suite" finished-at="2025-03-11T22:35:47 ICT" duration-ms="8934">
+  <suite started-at="2025-03-30T13:56:35 GMT+07:00" name="Default suite" finished-at="2025-03-30T13:58:56 GMT+07:00" duration-ms="141016">
     <groups>
     </groups>
-    <test started-at="2025-03-11T22:35:38 ICT" name="Default test" finished-at="2025-03-11T22:35:47 ICT" duration-ms="8934">
-      <class name="automation.testsuite.Day16_QuanLyKVLV_Test">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:automation.testsuite.Day16_QuanLyKVLV_Test@1e04fa0a]" started-at="2025-03-11T22:35:38 ICT" name="OpenBrowser" finished-at="2025-03-11T22:35:42 ICT" duration-ms="4655" status="PASS">
+    <test started-at="2025-03-30T13:56:35 GMT+07:00" name="Default test" finished-at="2025-03-30T13:58:56 GMT+07:00" duration-ms="141016">
+      <class name="automation.testsuite.ProjectFinal_QLND_Test">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:56:35 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:56:43 GMT+07:00" duration-ms="7799" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method signature="quanLyKhuVucLamViec()[pri:1, instance:automation.testsuite.Day16_QuanLyKVLV_Test@1e04fa0a]" started-at="2025-03-11T22:35:42 ICT" name="quanLyKhuVucLamViec" finished-at="2025-03-11T22:35:47 ICT" duration-ms="4263" status="PASS">
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Logintest()[pri:1, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:56:43 GMT+07:00" name="Logintest" finished-at="2025-03-30T13:56:46 GMT+07:00" duration-ms="3182" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quanLyKhuVucLamViec -->
-      </class> <!-- automation.testsuite.Day16_QuanLyKVLV_Test -->
+        </test-method> <!-- Logintest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:56:46 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:56:47 GMT+07:00" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:56:47 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:56:51 GMT+07:00" duration-ms="4471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Search()[pri:2, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:56:51 GMT+07:00" name="Search" finished-at="2025-03-30T13:56:53 GMT+07:00" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:56:53 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:56:54 GMT+07:00" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:56:54 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:56:58 GMT+07:00" duration-ms="4598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Add()[pri:3, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:56:58 GMT+07:00" name="Add" finished-at="2025-03-30T13:57:02 GMT+07:00" duration-ms="3478" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //td[text()='HoangKhang' and @class='fullname']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.2', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d19f7c7b-50ef-450d-95d9-9f385ed43e8d, findElement {using=xpath, value=//td[text()='HoangKhang' and @class='fullname']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:debuggerAddress: 127.0.0.1:49125, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 53000, moz:profile: /var/folders/dh/260z2h_j3rs..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:49125/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: d19f7c7b-50ef-450d-95d9-9f385ed43e8d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //td[text()='HoangKhang' and @class='fullname']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.2', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d19f7c7b-50ef-450d-95d9-9f385ed43e8d, findElement {using=xpath, value=//td[text()='HoangKhang' and @class='fullname']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:debuggerAddress: 127.0.0.1:49125, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 53000, moz:profile: /var/folders/dh/260z2h_j3rs..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:49125/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: d19f7c7b-50ef-450d-95d9-9f385ed43e8d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at automation.testsuite.ProjectFinal_QLND_Test.Add(ProjectFinal_QLND_Test.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:57:02 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:57:02 GMT+07:00" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:57:02 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:57:07 GMT+07:00" duration-ms="4481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Edit_Name()[pri:4, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:57:07 GMT+07:00" name="Edit_Name" finished-at="2025-03-30T13:57:11 GMT+07:00" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Name -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:57:11 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:57:11 GMT+07:00" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:57:11 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:57:16 GMT+07:00" duration-ms="4497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Edit_PhoneNumber()[pri:5, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:57:16 GMT+07:00" name="Edit_PhoneNumber" finished-at="2025-03-30T13:57:58 GMT+07:00" duration-ms="42582" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@href, 'modify/156478798771')] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.2', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:debuggerAddress: 127.0.0.1:9918, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 53049, moz:profile: /var/folders/dh/260z2h_j3rs..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:9918/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: dd31b0ab-006e-4d15-a36f-9deaf7112f35]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@href, 'modify/156478798771')] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.2', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:debuggerAddress: 127.0.0.1:9918, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 53049, moz:profile: /var/folders/dh/260z2h_j3rs..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:9918/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: dd31b0ab-006e-4d15-a36f-9deaf7112f35
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at automation.common.CommonBase.getElementPresentDOM(CommonBase.java:45)
+at automation.common.CommonBase.click(CommonBase.java:50)
+at automation.testsuite.ProjectFinal_QLND_Test.Edit_PhoneNumber(ProjectFinal_QLND_Test.java:94)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_PhoneNumber -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:57:58 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:57:59 GMT+07:00" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:57:59 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:58:04 GMT+07:00" duration-ms="4861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Edit_Departments()[pri:6, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:04 GMT+07:00" name="Edit_Departments" finished-at="2025-03-30T13:58:09 GMT+07:00" duration-ms="4683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Departments -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:09 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:58:10 GMT+07:00" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:10 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:58:14 GMT+07:00" duration-ms="4473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Edit_Role()[pri:7, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:14 GMT+07:00" name="Edit_Role" finished-at="2025-03-30T13:58:18 GMT+07:00" duration-ms="3711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Role -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:18 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:58:18 GMT+07:00" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:18 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:58:23 GMT+07:00" duration-ms="4418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Edit_WorkArea()[pri:8, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:23 GMT+07:00" name="Edit_WorkArea" finished-at="2025-03-30T13:58:27 GMT+07:00" duration-ms="4098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_WorkArea -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:27 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:58:28 GMT+07:00" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:28 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:58:32 GMT+07:00" duration-ms="4413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Edit_UserID()[pri:9, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:32 GMT+07:00" name="Edit_UserID" finished-at="2025-03-30T13:58:35 GMT+07:00" duration-ms="3159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_UserID -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:35 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:58:36 GMT+07:00" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:36 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:58:40 GMT+07:00" duration-ms="4596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="View()[pri:10, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:40 GMT+07:00" name="View" finished-at="2025-03-30T13:58:42 GMT+07:00" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- View -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:42 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:58:43 GMT+07:00" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:43 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:58:47 GMT+07:00" duration-ms="4696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Activate_Lock()[pri:11, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:47 GMT+07:00" name="Activate_Lock" finished-at="2025-03-30T13:58:49 GMT+07:00" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Activate_Lock -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:49 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:58:49 GMT+07:00" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:49 GMT+07:00" name="initBrowser" finished-at="2025-03-30T13:58:54 GMT+07:00" duration-ms="4613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Change_Pass()[pri:12, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:54 GMT+07:00" name="Change_Pass" finished-at="2025-03-30T13:58:55 GMT+07:00" duration-ms="1486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Change_Pass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.ProjectFinal_QLND_Test@294425a7]" started-at="2025-03-30T13:58:55 GMT+07:00" name="closeBrowser" finished-at="2025-03-30T13:58:56 GMT+07:00" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.ProjectFinal_QLND_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

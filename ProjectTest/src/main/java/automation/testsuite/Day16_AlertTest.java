@@ -5,15 +5,18 @@ import static org.testng.Assert.assertFalse;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 import org.testng.annotations.Test;
+
 
 import automation.common.CommonBase;
 import automation.constant.CT_PageURL;
 
 public class Day16_AlertTest  extends CommonBase{
 	@BeforeMethod
-	public void OpenBrowser() {
+	@Parameters("browserTestNG")
+	public void OpenBrowser(@Optional ("firefox") String browserTestNG ) {
+		driver = setupDriver(browserTestNG);
 		driver = initFireFoxDriver(CT_PageURL.URL_DEMO_AUTOMATION);
 	}
 	

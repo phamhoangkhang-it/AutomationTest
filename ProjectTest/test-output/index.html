@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Add">Add</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Edit_PhoneNumber">Edit_PhoneNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +123,52 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.Day16_QuanLyKVLV_Test" class="method navigator-link" hash-for-method="quanLyKhuVucLamViec">quanLyKhuVucLamViec</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Activate_Lock">Activate_Lock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Change_Pass">Change_Pass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Edit_Departments">Edit_Departments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Edit_Name">Edit_Name</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Edit_Role">Edit_Role</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Edit_UserID">Edit_UserID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Edit_WorkArea">Edit_WorkArea</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Logintest">Logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="Search">Search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.ProjectFinal_QLND_Test" class="method navigator-link" hash-for-method="View">View</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,17 +183,192 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">automation.testsuite.Day16_QuanLyKVLV_Test</span>
+              <img src="failed.png"/>
+              <span class="class-name">automation.testsuite.ProjectFinal_QLND_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="quanLyKhuVucLamViec">
-                  </a> <!-- quanLyKhuVucLamViec -->
-                  <span class="method-name">quanLyKhuVucLamViec</span>
+                  <a name="Add">
+                  </a> <!-- Add -->
+                  <span class="method-name">Add</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //td[text()=&apos;HoangKhang&apos; and @class=&apos;fullname&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d19f7c7b-50ef-450d-95d9-9f385ed43e8d, findElement {using=xpath, value=//td[text()=&apos;HoangKhang&apos; and @class=&apos;fullname&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:debuggerAddress: 127.0.0.1:49125, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 53000, moz:profile: /var/folders/dh/260z2h_j3rs..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:49125/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: d19f7c7b-50ef-450d-95d9-9f385ed43e8d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at automation.testsuite.ProjectFinal_QLND_Test.Add(ProjectFinal_QLND_Test.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_PhoneNumber">
+                  </a> <!-- Edit_PhoneNumber -->
+                  <span class="method-name">Edit_PhoneNumber</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@href, &apos;modify/156478798771&apos;)] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0.1, moz:accessibilityChecks: false, moz:buildID: 20250310180126, moz:debuggerAddress: 127.0.0.1:9918, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 53049, moz:profile: /var/folders/dh/260z2h_j3rs..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:9918/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: dd31b0ab-006e-4d15-a36f-9deaf7112f35
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at automation.common.CommonBase.getElementPresentDOM(CommonBase.java:45)
+	at automation.common.CommonBase.click(CommonBase.java:50)
+	at automation.testsuite.ProjectFinal_QLND_Test.Edit_PhoneNumber(ProjectFinal_QLND_Test.java:94)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation.testsuite.ProjectFinal_QLND_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Activate_Lock">
+                  </a> <!-- Activate_Lock -->
+                  <span class="method-name">Activate_Lock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Change_Pass">
+                  </a> <!-- Change_Pass -->
+                  <span class="method-name">Change_Pass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_Departments">
+                  </a> <!-- Edit_Departments -->
+                  <span class="method-name">Edit_Departments</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_Name">
+                  </a> <!-- Edit_Name -->
+                  <span class="method-name">Edit_Name</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_Role">
+                  </a> <!-- Edit_Role -->
+                  <span class="method-name">Edit_Role</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_UserID">
+                  </a> <!-- Edit_UserID -->
+                  <span class="method-name">Edit_UserID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Edit_WorkArea">
+                  </a> <!-- Edit_WorkArea -->
+                  <span class="method-name">Edit_WorkArea</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logintest">
+                  </a> <!-- Logintest -->
+                  <span class="method-name">Logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search">
+                  </a> <!-- Search -->
+                  <span class="method-name">Search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="View">
+                  </a> <!-- View -->
+                  <span class="method-name">View</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +376,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/dh/260z2h_j3rsbymb7vfmfywhw0000gn/T/testng-eclipse--686700507/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/dh/260z2h_j3rsbymb7vfmfywhw0000gn/T/testng-eclipse--1323835488/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,11 +385,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;automation.testsuite.Day16_QuanLyKVLV_Test&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;quanLyKhuVucLamViec&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- automation.testsuite.Day16_QuanLyKVLV_Test --&gt;
+      &lt;class name=&quot;automation.testsuite.ProjectFinal_QLND_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -190,16 +425,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'quanLyKhuVucLamViec')
-data.setCell(0, 2, 'automation.testsuite.Day16_QuanLyKVLV_Test')
-data.setCell(0, 3, 4263);
+data.setCell(0, 1, 'Edit_PhoneNumber')
+data.setCell(0, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(0, 3, 42582);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Edit_Departments')
+data.setCell(1, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(1, 3, 4683);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Edit_WorkArea')
+data.setCell(2, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(2, 3, 4098);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Edit_Name')
+data.setCell(3, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(3, 3, 3899);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Edit_Role')
+data.setCell(4, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(4, 3, 3711);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Add')
+data.setCell(5, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(5, 3, 3478);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Logintest')
+data.setCell(6, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(6, 3, 3182);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Edit_UserID')
+data.setCell(7, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(7, 3, 3159);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Search')
+data.setCell(8, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(8, 3, 1557);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Change_Pass')
+data.setCell(9, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(9, 3, 1486);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Activate_Lock')
+data.setCell(10, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(10, 3, 1446);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'View')
+data.setCell(11, 2, 'automation.testsuite.ProjectFinal_QLND_Test')
+data.setCell(11, 3, 1432);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -214,18 +493,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">automation.testsuite.Day16_QuanLyKVLV_Test</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">themKVLV_SaiDinhDang_MaKLV</span>
-                <br/>
-                <span class="ignored-method-name">themKVLV_SaiDinhDang_TenKLV</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -234,15 +504,155 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">automation.testsuite.Day16_QuanLyKVLV_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">automation.testsuite.ProjectFinal_QLND_Test</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">OpenBrowser</span>
+                <span class="method-name">initBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">quanLyKhuVucLamViec</span>
-                <span class="method-start">4655 ms</span>
+                <span class="method-name">Logintest</span>
+                <span class="method-start">7800 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">10989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">11722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Search</span>
+                <span class="method-start">16193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">17755 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">18421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add</span>
+                <span class="method-start">23019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">26505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">27174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Edit_Name</span>
+                <span class="method-start">31655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">35556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">36288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Edit_PhoneNumber</span>
+                <span class="method-start">40786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">83378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">84275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Edit_Departments</span>
+                <span class="method-start">89136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">93823 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">94491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Edit_Role</span>
+                <span class="method-start">98964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">102677 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">103332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Edit_WorkArea</span>
+                <span class="method-start">107751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">111855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">112528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Edit_UserID</span>
+                <span class="method-start">116941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">120102 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">120763 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">View</span>
+                <span class="method-start">125360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">126794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">127439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Activate_Lock</span>
+                <span class="method-start">132135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">133583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">134212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Change_Pass</span>
+                <span class="method-start">138825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">140315 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

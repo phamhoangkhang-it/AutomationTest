@@ -28,6 +28,11 @@ public class CT_PageURL {
 	public static String URL_DEMO_AUTOMATION  = "https://demo.automationtesting.in/Alerts.html";
 	
 	public static String URL_SELENIUMPRACTISE  = "https://seleniumpractise.blogspot.com/2019/01/alert-demo.html";
+	
+	public static String URL_MEDIAMART  = "https://mediamart.vn/";
+	
+	public static String URL_BEPANTOAN  = "https://bepantoan.vn/";
+
 
 
 

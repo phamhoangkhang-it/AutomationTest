@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.Day16_QuanLyKVLV_Test">
+      <class name="automation.testsuite.ProjectFinal_QLND_Test">
         <methods>
-          <include name="quanLyKhuVucLamViec"/>
-          <include name="OpenBrowser"/>
+          <include name="Add"/>
+          <include name="Edit_PhoneNumber"/>
+          <include name="initBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- automation.testsuite.Day16_QuanLyKVLV_Test -->
+      </class> <!-- automation.testsuite.ProjectFinal_QLND_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
